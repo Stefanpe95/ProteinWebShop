@@ -1,0 +1,15 @@
+<div *ngIf="cartItems.length === 0"class="alert alert-info">Your cart is empty</div>
+
+<ul *ngIf="cartItems.length > 0"class="list-group">
+    <li class="list-group-item cartItems" *ngFor="let item of cartItems">
+        <app-cart-item [cartItem]="item" [isParentCart]="true"></app-cart-item>
+    </li>
+
+    <li class="list-group-item active">
+        <strong>Total:</strong> {{cartTotal | currency:'EUR'}}
+    </li>
+    <p></p>
+    <div class="btn-group">
+         <a mat-raised-button class="btn btn-sm btn-primary product-btn" (click)="openDialo()">BUY</a>
+      </div>
+</ul>

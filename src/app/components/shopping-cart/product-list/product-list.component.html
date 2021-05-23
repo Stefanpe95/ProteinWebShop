@@ -1,0 +1,23 @@
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+    <div class="col-md-4" *ngFor="let product of productList | paginate: {itemsPerPage: pageSize, currentPage: page, totalItems: count}">
+      <app-product-item [productItem]="product" [addedToWishlist]="wishlist.indexOf(product.id) >= 0"></app-product-item>
+      </div>
+    </div>
+    <div class="col-md-12 pagination">
+      <div>
+      <pagination-controls
+        previousLabel="Prev"
+        nextLabel="Next"
+        [responsive]="true"
+        (pageChange)="handlePageChange($event)"
+      ></pagination-controls>
+      </div>
+      <div>
+        Items per Page:
+        <select (change)="handlePageSizeChange($event)">
+          <option *ngFor="let size of pageSizes" ngValue="size">
+            {{ size }}
+          </option>
+        </select>
+      </div>
+    </div>

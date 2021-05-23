@@ -1,0 +1,28 @@
+<mat-dialog-content>   
+
+    <h1 *ngIf="isFinished==false">YOUR ORDER</h1>
+
+    <div *ngIf="isFinished== false && order!=undefined && order.CartItemsList.length == 0 "class="alert alert-info">Your order is empty</div>
+    <ul *ngIf="isFinished== false && order!=undefined && order.CartItemsList.length > 0"class="list-group">
+        <li class="list-group-item" *ngFor="let item of order.CartItemsList">
+            <app-cart-item [cartItem]="item" [isParentCart]="false"></app-cart-item>
+        </li>
+    
+        <li class="list-group-item active">
+            <strong>Total:</strong> {{order.total | currency:'EUR'}}
+        </li>
+        <p></p>
+        <div class="btn-group">
+            <a mat-raised-button class="btn btn-sm btn-primary product-btn" (click)="createOrder()">ORDER</a>
+         </div>
+    </ul>
+    <div class="center" *ngIf="isFinished==true">
+        <h1><b>THANKS FOR ORDERING!</b></h1>
+        <a mat-raised-button class="btn btn-sm btn-primary product-btn" (click)="closeOrder()">CLOSE</a>
+    </div>
+
+</mat-dialog-content>
+
+<mat-dialog-actions>
+
+</mat-dialog-actions>

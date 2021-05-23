@@ -1,0 +1,6 @@
+<div class="cart-item container" *ngIf="cartItem && product">
+    <span class="product-name-qty">{{product.name}}<b> x {{cartItem.qty}}</b></span> 
+    <span class="flex-spacer" *ngIf="isParentCart == false"></span>
+    <span class="price"><b>{{(cartItem.price) | currency:'EUR' }}</b></span>
+</div>
+

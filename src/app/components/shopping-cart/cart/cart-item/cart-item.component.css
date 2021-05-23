@@ -1,0 +1,20 @@
+.container {
+    display:flex;
+    margin-right: 0px;
+    align-items:center;
+
+}
+
+.flex-spacer {
+    flex: auto;
+
+  }
+
+.product-name-qty{
+    padding-top: 0;
+    padding-left: 0;
+}
+
+.price{
+    margin-left: 20px;
+}

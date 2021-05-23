@@ -1,0 +1,96 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Gold Standard Whey 100%",
+      "description": "Good description",
+      "imageUrl": "https://www.hiper.rs/pub/media/catalog/product/cache/b40488bd01a4e3ef64104ffa50fb0b7d/5/5/5511-mammut-whey-protein-vanilla.jpg",
+      "price": 24.99
+    },
+    {
+      "id": 2,
+      "name": "Scitec Nutrition 100% Whey Blue",
+      "description": "Good description",
+      "imageUrl": "https://www.pansport.rs/sites/default/files/styles/product/public/images/products/sci_100wp_900g.png?itok=EEfdXTDF",
+      "price": 14.99
+    },
+    {
+      "id": 3,
+      "name": "Blastex whey soort protein white",
+      "description": "Good description",
+      "imageUrl": "https://amgsport.net/wp-content/uploads/2019/01/fotop152_643.png",
+      "price": 4.99
+    },
+    {
+      "id": 4,
+      "name": "Mammut whey protein 1.8 kg",
+      "description": "Good description",
+      "imageUrl": "https://www.hiper.rs/pub/media/catalog/product/cache/b40488bd01a4e3ef64104ffa50fb0b7d/5/5/5511-mammut-whey-protein-vanilla.jpg",
+      "price": 34.99
+    },
+    {
+      "id": 5,
+      "name": "Gold Standard Whey 100%",
+      "description": "Good description",
+      "imageUrl": "https://www.hiper.rs/pub/media/catalog/product/cache/b40488bd01a4e3ef64104ffa50fb0b7d/5/5/5511-mammut-whey-protein-vanilla.jpg",
+      "price": 50.99
+    },
+    {
+      "id": 6,
+      "name": "Gold Standard Whey 100%",
+      "description": "Good description",
+      "imageUrl": "https://www.hiper.rs/pub/media/catalog/product/cache/b40488bd01a4e3ef64104ffa50fb0b7d/5/5/5511-mammut-whey-protein-vanilla.jpg",
+      "price": 6.99
+    },
+    {
+      "id": 7,
+      "name": "Gold Standard Whey 100%",
+      "description": "Good description",
+      "imageUrl": "https://www.hiper.rs/pub/media/catalog/product/cache/b40488bd01a4e3ef64104ffa50fb0b7d/5/5/5511-mammut-whey-protein-vanilla.jpg",
+      "price": 15.99
+    },
+    {
+      "id": 8,
+      "name": "Gold Standard Whey 100%",
+      "description": "Good description",
+      "imageUrl": "https://www.hiper.rs/pub/media/catalog/product/cache/b40488bd01a4e3ef64104ffa50fb0b7d/5/5/5511-mammut-whey-protein-vanilla.jpg",
+      "price": 21.99
+    },
+    {
+      "id": 9,
+      "name": "Gold Standard Whey 100%",
+      "description": "Good description",
+      "imageUrl": "https://www.hiper.rs/pub/media/catalog/product/cache/b40488bd01a4e3ef64104ffa50fb0b7d/5/5/5511-mammut-whey-protein-vanilla.jpg",
+      "price": 19.99
+    },
+    {
+      "id": 10,
+      "name": "Gold Standard Whey 100%",
+      "description": "Good description",
+      "imageUrl": "https://www.hiper.rs/pub/media/catalog/product/cache/b40488bd01a4e3ef64104ffa50fb0b7d/5/5/5511-mammut-whey-protein-vanilla.jpg",
+      "price": 14.99
+    }
+  ],
+  "wishlist": [],
+  "cart": [
+  ],
+  "order": [
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
