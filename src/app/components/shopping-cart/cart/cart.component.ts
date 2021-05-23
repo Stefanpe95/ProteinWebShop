@@ -43,7 +43,7 @@ public cartTotal=0;
   }
 
 
-  openDialog(): void {
+  openDialogPopup(): void {
     const dialogRef = this.dialog.open(OrderComponent, {
       width: '500px',
       height: '500px'
